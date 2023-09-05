@@ -1,0 +1,23 @@
+
+
+h3
+{
+    font: size 30px !important; 
+}
+
+.btn-warning:hover
+{
+    background-color: rgba(245, 255, 130, 0.933);
+}
+canvas
+{
+    animation-name:madoria;
+    animation-duration: 1s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes madoria
+{
+    from{box-shadow: 30px 36px 45px rgb(133, 255, 192);}
+    to{box-shadow: 30px 36px 45px #ffa7df;}
+}
